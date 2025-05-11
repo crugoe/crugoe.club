@@ -1,0 +1,54 @@
+{
+    "site": {
+        "title": "crugoe",
+        "subtitle": "dev / entrepreneur",
+        "github": "https://github.com/crugoe",
+        "github_username": "crugoe",
+        "discord": "https://discord.com/users/229480101681692673",
+        "discord_username": "crugoe#1337",
+        "email": "mailto:l9j3@pm.me",
+        "email_address": "l9j3@pm.me",
+        "spotify_link": "https://spotify.com/",
+        "spotify_label": "Spotify",
+        "not_listening": "Not Listening Anything",
+        "crypto_graphs": "crypto graphs"
+    },
+    "api": {
+        "lastfm": {
+            "base_url": "https://ws.audioscrobbler.com/2.0/",
+            "user": "bilgehanulus",
+            "api_key": "a8ab6dfeb6124f5a6167c1b83accee6b",
+            "recent_tracks": "method=user.getrecenttracks&limit=1",
+            "top_albums": "method=user.gettopalbums&limit=14"
+        },
+        "themoviedb": {
+            "base_url": "https://api.themoviedb.org/3/",
+            "list_url": "list/8530277",
+            "api_key": "41ebd24e34c0addb6b35405de4140108",
+            "language": "en-US"
+        },
+        "openlibrary": {
+            "base_url": "https://openlibrary.org/",
+            "user_books": "people/crugoe/books/already-read.json"
+        },
+        "binance": {
+            "ws_url": "wss://stream.binance.com:9443/ws/",
+            "api_url": "https://api.binance.com/api/v3/klines",
+            "coin_pairs": {
+                "BTC": "btcusdt",
+                "ETH": "ethusdt",
+                "XRP": "xrpusdt",
+                "EOS": "eosusdt",
+                "VET": "vetusdt",
+                "ADA": "adausdt",
+                "HBAR": "hbarbtc",
+                "SOL": "solusdt",
+                "BNB": "bnbusdt",
+                "DOGE": "dogeusdt",
+                "TRX": "trxusdt",
+                "XMR": "xmrusdt"
+            }
+        }
+    },
+    "projects": []
+}
